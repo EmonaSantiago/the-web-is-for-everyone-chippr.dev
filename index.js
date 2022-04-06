@@ -45,6 +45,13 @@
 
 // console.log(myModule)
 
+// const { readFile } = require('fs').promises;
+
+// app.get('./', async (request, response) => {
+
+//     response.send( await readFile('./home.html', 'utf8') );
+
+// });
 
 const express = require('express');
 const { read, readFile } = require('fs');
@@ -66,11 +73,5 @@ app.get('/', (request, response) => {
 
 app.listen(process.env.PORT || 3000, () => console.log(`App avaiable on http:localhost:3000`))
 
-// const { readFile } = require('fs').promises;
 
-// app.get('./', async (request, response) => {
-
-//     response.send( await readFile('./home.html', 'utf8') );
-
-// });
 
