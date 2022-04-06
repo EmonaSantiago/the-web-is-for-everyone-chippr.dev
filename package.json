@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/EmonaSantiago/the-web-is-for-everyone-chippr.dev#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "node-fetch": "^3.2.3"
   }
+  
 }
